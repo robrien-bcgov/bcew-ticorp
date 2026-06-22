@@ -5,7 +5,10 @@
         ".",
         "bcgov/design-system-wordpress-theme"
     ],
+    "plugins": [
+        "bcgov/design-system-wordpress-plugin"
+    ],
     "lifecycleScripts": {
-        "afterStart": "wp-env run tests-cli wp theme activate design-system-wordpress-child-theme-ticorp"
+        "afterStart": "wp-env run tests-cli wp theme activate bcew-ticorp && wp-env run cli wp theme activate bcew-ticorp"
     }
 }

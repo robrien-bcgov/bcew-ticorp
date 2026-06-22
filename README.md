@@ -1,3 +1,3 @@
-# design-system-wordpress-child-theme-ticorp
+# bcew-ticorp
 
-A child theme for the ticorp based off the design system WordPress theme
+A child theme for TICorp based off the BC Extended Web parent theme

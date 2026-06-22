@@ -1,6 +1,13 @@
 /*
-Theme Name:   Design System Wordpress Child Theme TI-Corp
-Theme URI:    https://github.com/bcgov/design-system-wordpress-child-theme-ti-corp
+Theme Name:   BCEW TI Corp Theme
+Theme URI:    https://github.com/bcgov/bcew-ticorp
 Version:      1.2.0
 Template:     design-system-wordpress-theme
+Author:       BC Government
+Author URI:   https://www2.gov.bc.ca/gov/content/home
+Description:  A child theme for the BC Government Extended Web WordPress Theme, used for the BC Environmental Transportation Investment Corporation(BCEW TI Corp).
+License:      GNU General Public License v2 or later
+License URI:  https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  bcew-ticorp
+Note:        This theme is a child theme of the Extended Web WordPress Theme, and inherits its styles and functionality. Custom styles for the BCEW TI Corp theme should be added to this stylesheet.
 */
