@@ -1,19 +1,19 @@
 {
-  "name": "design-system-wordpress-child-theme-ti-corp",
+  "name": "bcew-ticorp",
   "version": "1.2.0",
   "description": "TI-Corp Child Theme",
   "author": "govwordpress@gov.bc.ca",
   "license": "GPL-2.0-or-later",
   "keywords": [
-    "WordPress",
-    "Block Theme",
     "BCGov",
-    "DesignSystem",
+    "Bcew",
+    "TI Corp",
     "Gutenberg"
   ],
+  "homepage": "https://github.com/robrien-bcgov/bcew-ticorp#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bcgov/design-system-wordpress-child-theme-ti-corp.git"
+    "url": "git+https://github.com/robrien-bcgov/bcew-ticorp.git"
   },
   "bugs": {
     "url": "https://github.com/bcgov/design-system-wordpress-theme#readme",
@@ -23,6 +23,9 @@
     "node": "^24.12.0"
   },
   "main": "index.js",
+  "dependencies": {
+    "@babel/runtime": "^8.0.0"
+  },
   "devDependencies": {
     "@bcgov/bc-sans": "^2.1.0",
     "@bcgov/wordpress-eslint": "git+https://github.com/bcgov/wordpress-eslint.git#semver:1.x",
@@ -52,7 +55,7 @@
     "test:screenshot": "npx playwright test",
     "test:screenshot:update": "npx playwright test --update-snapshots",
     "test:unit": "wp-scripts test-unit-js --passWithNoTests",
-    "test:unit:php": "wp-env run tests-cli --env-cwd=wp-content/themes/design-system-wordpress-child-theme-ticorp composer run test",
+    "test:unit:php": "wp-env run tests-cli --env-cwd=wp-content/themes/bcew-ticorp composer run test",
     "test": "npm run test:unit",
     "wp-env": "wp-env"
   }
